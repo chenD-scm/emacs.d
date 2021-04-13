@@ -1,8 +1,8 @@
 (require 'package)
 
-(defconst emacs-d
+(setq emacs-d
   (file-name-directory
-    (file-chase-links load-file-name)))
+    (or load-file-name (buffer-file-name))))
 
 ;; Don't use any packages from GNU ELPA, for minimize dependency on 3rd party web site.
 (setq package-archives

@@ -1,0 +1,3 @@
+[submodule "git/eaf"]
+	path = git/eaf
+	url = git@github.com:manateelazycat/emacs-application-framework
