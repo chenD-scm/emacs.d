@@ -37,3 +37,15 @@
 [submodule "git/general.el"]
 	path = git/general.el
 	url = git@github.com:noctuid/general.el
+[submodule "git/ctable"]
+	path = git/ctable
+	url = git@github.com:kiwanami/emacs-ctable
+[submodule "git/deferred"]
+	path = git/deferred
+	url = git@github.com:kiwanami/emacs-deferred
+[submodule "git/epc"]
+	path = git/epc
+	url = git@github.com:kiwanami/emacs-epc
+[submodule "git/s.el"]
+	path = git/s.el
+	url = git@github.com:magnars/s.el
