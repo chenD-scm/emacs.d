@@ -1,3 +1,30 @@
 [submodule "git/eaf"]
 	path = git/eaf
 	url = git@github.com:manateelazycat/emacs-application-framework
+[submodule "git/eclipse-theme"]
+	path = git/eclipse-theme
+	url = git@github.com:abo-abo/eclipse-theme
+[submodule "git/evil"]
+	path = git/evil
+	url = git@github.com:emacs-evil/evil
+[submodule "git/evil-escape"]
+	path = git/evil-escape
+	url = git@github.com:syl20bnr/evil-escape
+[submodule "git/evil-exchange"]
+	path = git/evil-exchange
+	url = git@github.com:Dewdrops/evil-exchange
+[submodule "git/evil-find-char-pinyin"]
+	path = git/evil-find-char-pinyin
+	url = git@github.com:cute-jumper/evil-find-char-pinyin
+[submodule "git/evil-matchit"]
+	path = git/evil-matchit
+	url = git@github.com:redguardtoo/evil-matchit
+[submodule "git/evil-nerd-commenter"]
+	path = git/evil-nerd-commenter
+	url = git@github.com:redguardtoo/evil-nerd-commenter
+[submodule "git/evil-surround"]
+	path = git/evil-surround
+	url = git@github.com:emacs-evil/evil-surround
+[submodule "git/evil-visualstar"]
+	path = git/evil-visualstar
+	url = git@github.com:bling/evil-visualstar

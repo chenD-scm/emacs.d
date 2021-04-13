@@ -40,7 +40,7 @@
     evil-matchit
     evil-nerd-commenter
     evil-surround
-    evil-visualstart
+    evil-visualstar
     general
     )
   "List of packages that I use.")
