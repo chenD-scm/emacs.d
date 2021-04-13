@@ -28,3 +28,12 @@
 [submodule "git/evil-visualstar"]
 	path = git/evil-visualstar
 	url = git@github.com:bling/evil-visualstar
+[submodule "git/pinyinlib.el"]
+	path = git/pinyinlib.el
+	url = git@github.com:cute-jumper/pinyinlib.el.git
+[submodule "git/evil-mark-replace"]
+	path = git/evil-mark-replace
+	url = git@github.com:redguardtoo/evil-mark-replace
+[submodule "git/general.el"]
+	path = git/general.el
+	url = git@github.com:noctuid/general.el

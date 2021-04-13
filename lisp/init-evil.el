@@ -1,5 +1,16 @@
 ;; -*- coding: utf-8; lexical-binding: t; -*-
 
+(require 'evil)
+(require 'evil-escape)
+(require 'evil-exchange)
+(require 'evil-find-char-pinyin)
+(require 'evil-mark-replace)
+(require 'evil-matchit)
+(require 'evil-nerd-commenter)
+(require 'evil-surround)
+(require 'evil-visualstar)
+(require 'general)
+
 ;; enable evil-mode
 (evil-mode 1)
 

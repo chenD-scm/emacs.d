@@ -46,6 +46,11 @@
 (defconst my-lisp-dir (concat my-emacs-d "lisp")
   "Directory of lisp.")
 
+(let ((emacs-git (expand-file-name "git/" my-emacs-d)))
+  (mapc (lambda (x)
+	  (add-to-list 'load-path (expand-file-name x emacs-git)))
+	(delete "." (delete ".." (directory-files emacs-git)))))
+
 (defun my-vc-merge-p ()
   "Use Emacs for git merge only?"
   (boundp 'startup-now))
@@ -81,7 +86,6 @@
   ;; (require-init 'init-modeline)
   (require-init 'init-utils)
   ;; (require-init 'init-file-type)
-  (require-init 'init-quelpa)
 
   ;; FOR unit test
   ;; (when my-disable-idle-timer
@@ -179,8 +183,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   '(general quelpa evil-surround evil-nerd-commenter evil-matchit evil-mark-replace evil-find-char-pinyin evil-exchange evil-escape eclipse-theme eaf)))
+ '(package-selected-packages '(quelpa)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

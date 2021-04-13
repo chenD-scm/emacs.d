@@ -2,8 +2,11 @@ emacs ?= emacs
 
 BASEDIR := $(shell pwd)
 
-install: upgrade
+install: 
 	cd $(BASEDIR)
+	git submodule update --init --recursive
+	git submodule foreach git reset --hard
+	git submodule foreach git checkout master
 	make run
 
 pull:
