@@ -17,6 +17,6 @@ upgrade:
 	cd $(BASEDIR) && $(emacs) -batch -l packages.el 2>&1 | tee -a etc/log
 
 run:
-	$(emacs) -Q -l init.el
+	$(emacs) -Q -l init.el &
 
 .PHONY: install upgrade run
