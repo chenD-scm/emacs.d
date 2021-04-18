@@ -49,3 +49,9 @@
 [submodule "git/s.el"]
 	path = git/s.el
 	url = git@github.com:magnars/s.el
+[submodule "git/pyim"]
+	path = git/pyim
+	url = git@github.com:tumashu/pyim
+[submodule "git/pyim-basedict"]
+	path = git/pyim-basedict
+	url = git@github.com:tumashu/pyim-basedict

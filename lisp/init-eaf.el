@@ -1,8 +1,4 @@
 (require 'eaf)
-;; (require 'ctable)
-;; (require 'deferred)
-;; (require 'epc)
-;; (require 's)
 
 ;; browser
 (setq eaf-browser-continue-where-left-off t)

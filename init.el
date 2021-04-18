@@ -117,7 +117,7 @@
   ;; (require-init 'init-term-mode t)
   ;; (require-init 'init-web-mode t)
   ;; (require-init 'init-company t)
-  ;; (require-init 'init-chinese t) ;; cannot be idle-required
+  (require-init 'init-chinese t) ;; cannot be idle-required
   ;; need statistics of keyfreq asap
   ;; (require-init 'init-keyfreq t)
   ;; (require-init 'init-httpd t)
