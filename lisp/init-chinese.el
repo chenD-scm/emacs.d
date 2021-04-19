@@ -1,6 +1,7 @@
 ;; -*- coding: utf-8; lexical-binding: t; -*-
 (require 'pyim)
 (require 'pyim-basedict)
+(pyim-basedict-enable)
 
 ;; {{ make IME compatible with evil-mode
 (defun evil-toggle-input-method ()
@@ -42,6 +43,3 @@
 
 (global-set-key (kbd "C-\\") 'evil-toggle-input-method)
 ;; }}
-
-     
-

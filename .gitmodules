@@ -55,3 +55,6 @@
 [submodule "git/pyim-basedict"]
 	path = git/pyim-basedict
 	url = git@github.com:tumashu/pyim-basedict
+[submodule "git/xr"]
+	path = git/xr
+	url = git@github.com:mattiase/xr
