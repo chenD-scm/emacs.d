@@ -43,3 +43,18 @@
 
 (global-set-key (kbd "C-\\") 'evil-toggle-input-method)
 ;; }}
+
+;; {{ pyim
+(with-eval-after-load 'pyim
+  ;; use western punctuation
+  (setq pyim-punctuation-dict nil)
+
+  ;; don't use shortcode2word
+  (setq pyim-enable-shortcode nil)
+
+  ;; use memory efficient pyim engine for pinyin ime
+  (setq pyim-dcache-backend 'pyim-dregcache)
+
+  ;; don't use tooltip
+  (setq pyim-use-tooltip 'popup))
+;; }}

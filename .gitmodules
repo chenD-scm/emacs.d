@@ -58,3 +58,6 @@
 [submodule "git/xr"]
 	path = git/xr
 	url = git@github.com:mattiase/xr
+[submodule "git/sdcv"]
+	path = git/sdcv
+	url = git@github.com:manateelazycat/sdcv

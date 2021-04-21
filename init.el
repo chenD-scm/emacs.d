@@ -7,9 +7,11 @@
   (when (version< emacs-version minver)
     (error "Emacs v%s or higher is required." minver)))
 
+(defvar emacs-d
+  (file-name-directory
+   (or load-file-name (buffer-file-name))))
 (setq user-init-file (or load-file-name (buffer-file-name)))
 (setq user-emacs-directory (file-name-directory user-init-file))
-
 (defvar my-debug nil "Enable debug mode.")
 
 (setq *is-a-mac* (eq system-type 'darwin))
