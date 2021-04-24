@@ -82,3 +82,6 @@
 [submodule "git/avy"]
 	path = git/avy
 	url = git@github.com:abo-abo/avy
+[submodule "git/undo-fu"]
+	path = git/undo-fu
+	url = git@github.com:emacsmirror/undo-fu
