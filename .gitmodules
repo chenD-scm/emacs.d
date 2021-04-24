@@ -67,3 +67,6 @@
 [submodule "git/hydra"]
 	path = git/hydra
 	url = git@github.com:abo-abo/hydra
+[submodule "git/emacs-w3m"]
+	path = git/emacs-w3m
+	url = git@github.com:emacs-w3m/emacs-w3m
