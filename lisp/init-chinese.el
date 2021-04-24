@@ -55,6 +55,9 @@
   ;; use memory efficient pyim engine for pinyin ime
   (setq pyim-dcache-backend 'pyim-dregcache)
 
+  (setq default-input-method "pyim")
+  (setq pyim-default-scheme 'quanpin)
+
   ;; don't use tooltip
   (setq pyim-use-tooltip 'popup))
 ;; }}

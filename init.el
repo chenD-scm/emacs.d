@@ -133,7 +133,7 @@
   ;; handy tools though not must have
   (require-init 'init-misc t)
 
-  ;; (require-init 'init-emacs-w3m t)
+  (require-init 'init-emacs-w3m t)
   ;; (require-init 'init-shackle t)
   ;; (require-init 'init-dired t)
   ;; (require-init 'init-writting t)
