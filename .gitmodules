@@ -70,3 +70,15 @@
 [submodule "git/emacs-w3m"]
 	path = git/emacs-w3m
 	url = git@github.com:emacs-w3m/emacs-w3m
+[submodule "git/winum"]
+	path = git/winum
+	url = git@github.com:deb0ch/emacs-winum
+[submodule "git/dash"]
+	path = git/dash
+	url = git@github.com:magnars/dash.el
+[submodule "git/ace-window"]
+	path = git/ace-window
+	url = git@github.com:abo-abo/ace-window
+[submodule "git/avy"]
+	path = git/avy
+	url = git@github.com:abo-abo/avy

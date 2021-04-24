@@ -89,6 +89,8 @@
   (require-init 'init-utils)
   ;; (require-init 'init-file-type)
 
+  (require-init 'init-require)
+  
   ;; FOR unit test
   ;; (when my-disable-idle-timer
   ;;   (my-add-subdirs-to-load-path (file-name-as-directory my-site-lisp-dir)))
@@ -98,7 +100,7 @@
   ;; (require-init 'init-spelling t)
   ;; (require-init 'init-ibuffer t)
   ;; (require-init 'init-ivy)
-  ;; (require-init 'init-windows)
+  (require-init 'init-windows)
   ;; (require-init 'init-javascript t)
   ;; (require-init 'init-org t)
   ;; (require-init 'init-css t)

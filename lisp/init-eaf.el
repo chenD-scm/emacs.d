@@ -1,5 +1,3 @@
-(require 'eaf)
-
 ;; browser
 (setq eaf-browser-continue-where-left-off t)
 (eaf-setq eaf-browser-enable-adblocker "true")
