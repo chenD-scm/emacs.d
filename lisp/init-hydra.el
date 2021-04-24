@@ -3,6 +3,8 @@
 ;; @see https://github.com/abo-abo/hydra
 ;; color could: red, blue, amaranth, pink, teal
 
+(require 'hydra)
+
 ;; use similar key bindings as init-evil.el
 (defhydra hydra-launcher (:color blue)
   "

@@ -61,3 +61,9 @@
 [submodule "git/sdcv"]
 	path = git/sdcv
 	url = git@github.com:manateelazycat/sdcv
+[submodule "git/posframe"]
+	path = git/posframe
+	url = git@github.com:tumashu/posframe
+[submodule "git/hydra"]
+	path = git/hydra
+	url = git@github.com:abo-abo/hydra
